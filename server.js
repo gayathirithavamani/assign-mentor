@@ -13,7 +13,9 @@ console.log("mongo connected");
 app.use(express.json());
 
 app.get("/", function (req, res) {
-  res.send("<h1>Welcome !!!.</h1>");
+  res.send(
+    "<h1>Welcome !!! GithubURL-https://github.com/gayathirithavamani/assign-mentor</h1>"
+  );
 });
 
 app.post("/mentor", async function (req, res) {
